@@ -15,20 +15,25 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global subscription and billing management market is estimated at **$7.5B – $9.2B** in 2025 and projected to reach **$8.6B – $11.0B** in 2026, driven by continuous migration to hybrid/metered usage-based pricing models. The sector is characterized by **moderate concentration at the large enterprise level** dominated by cloud and financial giants like Stripe and SAP, while remaining **highly fragmented across mid-market and SME segments** where agile pure-play subscription specialists and portal vendors actively compete without a single winner-take-all monopoly.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Stripe Customer Portal](https://stripe.com/)** | Hosted portal for customers to update payment methods, manage invoices, and view payment history. **Available only to paid Billing users**; you can test it in test mode before paying. Rates start at **0.7% of Billing volume** and **0.4% for one-time invoices** [citation:2][citation:10]. | 0.7% of Billing volume | No free tier for portal access; test mode available |
-| **[Chargebee Customer Portal](https://www.chargebee.com/)** | Self-service portal within Chargebee's subscription platform. **Important limitation: prices of plans and add-ons cannot be overridden via Hosted pages or Customer portal**—price overrides only work in the admin dashboard [citation:1][citation:9]. | Included with Chargebee subscription (Flow PAYG from 0.80% of invoicing) | No free tier; trial via Chargebee signup |
-| **[Recurly Subscriber Portal](https://recurly.com/)** | **Hosted subscriber portal with passwordless login** included in All-Access tier. Starter tier ($249/month + 0.9% of billing volume) covers core subscription billing but the self-serve portal features are positioned under All-Access [citation:3][citation:11]. | Starter: $249/month + 0.9% of billing volume | No free tier; trial via sales |
-| **[Maxio Customer Portal](https://www.maxio.com/)** | Customer portal included in the **Grow tier ($599/month)**. Unlimited users at no additional charge. Transparent pricing bands with add-ons and modules customized to company needs [citation:5]. | Grow: $599/month | No free tier; trial via sales |
-| **[Rebilly Customer Portal](https://www.rebilly.com/)** | Portal included in both Basic ($15/month) and Pro ($125/month) plans, with **unlimited team members** and **1% revenue fee**. 30-day free trial with no credit card required. Pricing is volume-based—lower rates at higher volume [citation:7]. | Basic: $15/month + 1% revenue fee; Pro: $125/month + 1% | **30-day free trial** (full product, no credit card) |
+| Product | Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
+|---------|-----------------------------|-------------|-------------------------|--------------------------|
+| **[Stripe Customer Portal](https://stripe.com/)** | **~$159B Valuation** (~$6.8B Revenue) | Hosted portal for customers to update payment methods, manage invoices, and switch/cancel plans. | 0.70% of billing volume for recurring subscriptions (or 0.40% per paid invoice on Invoicing Starter) | No standalone free tier; provides unlimited Developer Test Mode with test payment methods and simulated portal sessions |
+| **[Chargebee Customer Portal](https://www.chargebee.com/)** | **~$3.5B Valuation** (~$115M+ ARR) | Self-service billing portal within Chargebee's subscription and revenue lifecycle platform. | Starter plan: $0/month for first $250k cumulative revenue, then $599/month (or Flow PAYG starting at 0.80% of invoicing volume) | **14-day free trial** with full platform capabilities; plus **Chargebee for Startups** free tier up to $1M cumulative billing |
+| **[Recurly Subscriber Portal](https://recurly.com/)** | **Private / PE-backed** (~$50M–$60M ARR) | Hosted subscriber self-service portal with passwordless login for payment and subscription management. | Starter tier: $249/month + 0.90% of billing volume (includes first $40,000/month volume at no extra rate) | **14-day free trial** with full sandbox environment access for testing subscriber workflows |
+| **[Maxio Customer Portal](https://www.maxio.com/)** | **Private / PE-backed** (~$50M+ ARR) | Customer portal for self-service subscription and contract changes, bundled with SaaS metrics. | Grow tier starts at $599/month (includes self-service customer portal with unlimited users) | **30-day free trial** on Build developer tier with API and product catalog testing |
+| **[Rebilly Customer Portal](https://www.rebilly.com/)** | **Bootstrapped / Private** (~$6M–$10M ARR) | Payment orchestration and recurring billing platform offering complete hosted customer self-service. | Basic tier: $15/month + 1% transaction fee (Pro tier starts at $125/month + 1%) | **30-day free trial** with full platform access, unlimited team members, and no credit card required |
 
 ## Open-Source GitHub Projects
 
