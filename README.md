@@ -1,6 +1,6 @@
 # Awesome-Customer-Billing-Self-Service-Portal
 
-# Top Customer Billing Self-Service Portal Ecosystem
+## Top Customer Billing Self-Service Portal Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Subscription Management, Invoice Payment & Customer-Facing Billing Controls*  
