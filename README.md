@@ -1,75 +1,122 @@
-# Awesome-Customer-Billing-Self-Service-Portal
+# 💳 Awesome Customer Billing Self-Service Portal [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
-## Top Customer Billing Self-Service Portal Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=social&color=white" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=flat-square&color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Subscription Management, Invoice Payment & Customer-Facing Billing Controls*  
-**Last updated: March 2026**
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Customer Billing Self-Service Portal Banner" width="100%" />
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Billing Self-Service Portals**. These tools give end customers a branded interface to manage their own billing—updating payment methods, viewing invoices, changing plans, and canceling subscriptions—reducing support burden while giving finance teams control over what customers can and cannot modify.
+> 🌟 **A curated directory of top SaaS platforms and open-source GitHub projects for Customer Billing Self-Service Portals, Subscription Management, and Client Payment Dashboards.**
 
-**Examples** include Stripe Customer Portal, Chargebee Customer Portal, Recurly Subscriber Portal, Maxio Customer Portal, Rebilly Customer Portal, and open-source alternatives like FOSSBilling and Invoice Ninja (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted billing portals, open-source client management systems, and community-driven subscription portals—ideal for organizations seeking data sovereignty and predictable costs over percentage-of-revenue SaaS pricing. The open-source billing portal landscape is functional but bifurcated: hosting-focused tools like FOSSBilling offer complete client portals, while SaaS-focused platforms like Lago require more assembly.
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global subscription and billing management market is estimated at **$7.5B – $9.2B** in 2025 and projected to reach **$8.6B – $11.0B** in 2026, driven by continuous migration to hybrid/metered usage-based pricing models. The sector is characterized by **moderate concentration at the large enterprise level** dominated by cloud and financial giants like Stripe and SAP, while remaining **highly fragmented across mid-market and SME segments** where agile pure-play subscription specialists and portal vendors actively compete without a single winner-take-all monopoly.
-
-## SaaS/Hosted Platforms
-
-| Product | Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
-|---------|-----------------------------|-------------|-------------------------|--------------------------|
-| **[Stripe Customer Portal](https://stripe.com/)** | **~$159B Valuation** (~$6.8B Revenue) | Hosted portal for customers to update payment methods, manage invoices, and switch/cancel plans. | 0.70% of billing volume for recurring subscriptions (or 0.40% per paid invoice on Invoicing Starter) | No standalone free tier; provides unlimited Developer Test Mode with test payment methods and simulated portal sessions |
-| **[Chargebee Customer Portal](https://www.chargebee.com/)** | **~$3.5B Valuation** (~$115M+ ARR) | Self-service billing portal within Chargebee's subscription and revenue lifecycle platform. | Starter plan: $0/month for first $250k cumulative revenue, then $599/month (or Flow PAYG starting at 0.80% of invoicing volume) | **14-day free trial** with full platform capabilities; plus **Chargebee for Startups** free tier up to $1M cumulative billing |
-| **[Recurly Subscriber Portal](https://recurly.com/)** | **Private / PE-backed** (~$50M–$60M ARR) | Hosted subscriber self-service portal with passwordless login for payment and subscription management. | Starter tier: $249/month + 0.90% of billing volume (includes first $40,000/month volume at no extra rate) | **14-day free trial** with full sandbox environment access for testing subscriber workflows |
-| **[Maxio Customer Portal](https://www.maxio.com/)** | **Private / PE-backed** (~$50M+ ARR) | Customer portal for self-service subscription and contract changes, bundled with SaaS metrics. | Grow tier starts at $599/month (includes self-service customer portal with unlimited users) | **30-day free trial** on Build developer tier with API and product catalog testing |
-| **[Rebilly Customer Portal](https://www.rebilly.com/)** | **Bootstrapped / Private** (~$6M–$10M ARR) | Payment orchestration and recurring billing platform offering complete hosted customer self-service. | Basic tier: $15/month + 1% transaction fee (Pro tier starts at $125/month + 1%) | **30-day free trial** with full platform access, unlimited team members, and no credit card required |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)** | [![Stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers) | **The most complete open-source billing client portal for hosting and service providers.** Free, open-source billing and client management with automated billing cycles, multi-currency support, and multiple payment gateways (PayPal, Stripe, others). The **client self-service portal** lets customers manage services, view and pay invoices, submit support tickets, and access account information 24/7. No licensing fees or per-client charges [citation:8][citation:18]. |
-| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** | [![Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Open-source invoicing platform with a **client portal** where customers can view and pay invoices directly. Supports **Single Sign-On (SSO) for the client portal** via a WordPress shortcode (`[invoiceninja_client_portal sso="true"]`), eliminating password entry. Includes quotes, recurring invoices, and payment tracking [citation:17][citation:23]. |
-| **[Lago](https://github.com/getlago/lago)** | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Open-source metered billing and usage-based pricing platform with a **comprehensive customer portal** including usage analytics, invoice history, and subscription management. Supports real-time usage tracking, prepaid credits, graduated pricing, and multi-currency. The portal gives customers visibility into consumption-based billing—critical for usage-heavy SaaS [citation:22]. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Cbox Billing](https://github.com/cboxdk/cbox-billing)** | [![Stars](https://img.shields.io/github/stars/cboxdk/cbox-billing?style=social&color=white)](https://github.com/cboxdk/cbox-billing/stargazers) | Self-hostable billing, metering, and entitlement platform with **self-service customer portal** and provider console. Laravel 13/PHP 8.4+. Features real-time usage metering with hard-limit enforcement, credit wallets, tax-aware invoicing, dunning, and hosted checkout/portal sessions. Includes Stripe and Mollie gateway adapters. All production dependencies permissively licensed . |
-| **[PNLCS](https://github.com/Panelica/pnlcs)** | [![Stars](https://img.shields.io/github/stars/Panelica/pnlcs?style=social&color=white)](https://github.com/Panelica/pnlcs/stargazers) | Open-source WHMCS alternative (Laravel 13) for hosting billing with **full client portal** including hosting management (files, mail, databases, FTP, subdomains, DNS, cron, backups). Stripe, PayPal, and Authorize.Net gateways. 30 languages, 15 themes. Docker one-command deploy [citation:21]. |
-| **[ITFlow](https://github.com/itflow-org/itflow)** | [![Stars](https://img.shields.io/github/stars/itflow-org/itflow?style=social&color=white)](https://github.com/itflow-org/itflow/stargazers) | Open-source PSA for MSPs with **client portal** for self-service quote/invoice/ticket management. Includes accounting, billing, finance dashboard, and documentation. Free alternative to ITGlue and Hudu [citation:24]. |
-| **[itsm-modular](https://github.com/huanbv/itsm-modular)** | [![Stars](https://img.shields.io/github/stars/huanbv/itsm-modular?style=social&color=white)](https://github.com/huanbv/itsm-modular/stargazers) | Laravel 12 modular monolith with a dedicated **`Modules/CustomerPortal`** for self-service. Includes billing, invoices, payments, recurring billing, and CRM modules. Docker deployment with MySQL/PostgreSQL [citation:16][citation:28]. |
-
-**Frameworks for building custom systems**: Combine **FOSSBilling** for a turnkey hosting client portal with payment gateways, **Invoice Ninja** for invoicing-centric portals with SSO, and **Lago** for usage-based billing visibility—all deployable via Docker without per-client or percentage-of-revenue fees. For SaaS-specific needs, **Cbox Billing** provides metering plus portal in a single self-hosted stack.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Customer billing portals handle payment credentials and financial data; enforce PCI DSS compliance (or use tokenized gateways), strong authentication, and audit logging for all self-service actions.
-- **Self-service portal capabilities vary dramatically even within the same platform.** Stripe's portal is **paid-Billing-only**—legacy free users cannot access it [citation:2]. Chargebee explicitly **does not allow price overrides through the customer portal**; price changes require admin intervention [citation:1]. Recurly's passwordless portal is positioned under All-Access, not Starter [citation:3]. Maxio includes the portal only from the $599/month Grow tier [citation:5]. Open-source alternatives like **FOSSBilling** provide genuine client portals without per-client fees, but require self-hosting effort and lack the polish of commercial platforms. Always verify portal feature availability against your specific plan tier before committing.
+Customer Billing Self-Service Portals empower subscribers to manage credit cards, view and settle invoices, adjust pricing tiers, check metered usage, and handle recurring renewals—without burdening support teams or finance operations.
 
 ---
 
-**Made for billing administrators, subscription finance teams, and developers building self-service payment infrastructure.**  
-Let's make customer billing portals more open, transparent, and customer-friendly.
+## 📑 Table of Contents
+
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🎯 Architecture & Feature Matrix](#-architecture--feature-matrix)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global subscription and billing management software market is valued at **$7.5B – $9.2B** in 2025 and is projected to expand to **$8.6B – $11.0B** in 2026 (compounding at over 14% CAGR). Market acceleration is primarily fueled by rapid business transitions from static subscriptions to complex hybrid/metered usage-based pricing models, cross-border e-invoicing compliance, and automated dunning/churn mitigation.
+
+From a market dynamics perspective, the sector exhibits **moderate concentration at the enterprise tier**—dominated by multi-product infrastructure ecosystems like Stripe, Oracle, and SAP that bundle billing with payment rails and enterprise ERPs. Conversely, the market remains **highly fragmented across the mid-market and SME segments**, where specialized pure-play subscription engines (Chargebee, Recurly, Maxio, Rebilly) and modular open-source alternatives vigorously compete, preventing any single winner-take-all monopoly.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+*Commercial self-service billing portals offering turnkey client dashboards, automated payment gateway orchestration, and enterprise compliance. Ranked in descending order of company scale.*
+
+| Product | Scale (Valuation / Revenue) | Star / Portal Focus | Pricing (Starting Tier) | Free Tier / Trial Limits |
+|:---|:---|:---|:---|:---|
+| **[Stripe Customer Portal](https://stripe.com/)** | **~$159B Valuation** (~$6.8B Revenue) | Hosted self-service portal for updating payment methods, downloading invoices, and switching subscriptions. | 0.70% of billing volume for recurring subscriptions (or 0.40% per paid invoice on Invoicing Starter) | No standalone free tier for live charges; provides unlimited free Developer Test Mode / sandbox simulation with test cards |
+| **[Chargebee Customer Portal](https://www.chargebee.com/)** | **~$3.5B Valuation** (~$115M+ ARR) | Dedicated customer self-service billing portal within Chargebee's subscription and revenue lifecycle platform. | Starter plan: $0/month for first $250k cumulative revenue, then $599/month (or Flow PAYG starting at 0.80% of invoicing volume) | **14-day free trial** with full platform capabilities; plus **Chargebee for Startups** free tier up to $1M cumulative billing |
+| **[Recurly Subscriber Portal](https://recurly.com/)** | **Private / PE-backed** (~$50M–$60M ARR) | Hosted subscriber self-service portal with passwordless login for payment and subscription management. | Starter tier: $249/month + 0.90% of billing volume (includes first $40,000/month volume at no extra rate) | **14-day free trial** with full sandbox environment access for testing subscriber workflows |
+| **[Maxio Customer Portal](https://www.maxio.com/)** | **Private / PE-backed** (~$50M+ ARR) | Customer portal for self-service subscription and contract changes, bundled with B2B SaaS metrics & ASC 606 RevRec. | Grow tier starts at $599/month (includes self-service customer portal with unlimited users) | **30-day free trial** on Build developer sandbox tier with API, product catalog, and portal testing |
+| **[Rebilly Customer Portal](https://www.rebilly.com/)** | **Bootstrapped / Private** (~$6M–$10M ARR) | Payment orchestration and recurring billing platform offering complete hosted customer self-service. | Basic tier: $15/month + 1% transaction fee (Pro tier starts at $125/month + 1%) | **30-day free trial** with full platform access, unlimited team members, and no credit card required |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Self-hosted billing platforms, open-source invoicing systems, and usage-based metering engines featuring customer-facing self-service portals. Sorted in descending order by GitHub stargazers count.*
+
+| Project | Star Badge | Description | Tech Stack |
+|:---|:---|:---|:---|
+| **[Lago](https://github.com/getlago/lago)** | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Open-source metered billing and usage-based pricing platform with an extensible **customer portal** featuring real-time consumption analytics, invoice history, and self-serve prepaid wallet top-ups. | Go / Ruby / TypeScript |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** | [![Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Battle-tested open-source invoicing, payments, and client management suite with a **branded client portal** featuring passwordless/SSO login, quote acceptance, online invoice payments, and subscription tracking. | PHP (Laravel) / Flutter |
+| **[Crater](https://github.com/crater-invoice/crater)** | [![Stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers) | Open-source invoicing solution designed for freelancers and small enterprises with a clean **client-facing payment portal**, estimate approvals, expense tracking, and mobile apps. | PHP (Laravel) / Vue.js |
+| **[Kill Bill](https://github.com/killbill/killbill)** | [![Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Enterprise-grade open-source subscription billing and payments platform with modular self-service interfaces, complex catalog management, dunning workflows, and gateway integrations. | Java / OSGi |
+| **[OpenMeter](https://github.com/openmeterio/openmeter)** | [![Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Cloud-native open-source usage metering and monetization engine designed for AI and API products, providing client-facing consumption widgets and real-time balance portals. | Go / C++ / TypeScript |
+| **[InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf)** | [![Stars](https://img.shields.io/github/stars/InvoiceShelf/InvoiceShelf?style=social&color=white)](https://github.com/InvoiceShelf/InvoiceShelf/stargazers) | Open-source web-based invoicing and client management software with an integrated **client portal** where customers can review invoices, download PDFs, and process card payments. | PHP (Laravel) / Vue.js |
+| **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)** | [![Stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers) | The premier open-source client billing portal for web hosting and digital service providers. Includes a **turnkey customer self-service area** for service provisioning, support ticketing, recurring invoice settlement, and payment gateway routing. | PHP / Twig / MySQL |
+| **[ITFlow](https://github.com/itflow-org/itflow)** | [![Stars](https://img.shields.io/github/stars/itflow-org/itflow?style=social&color=white)](https://github.com/itflow-org/itflow/stargazers) | Open-source IT documentation and PSA platform for MSPs featuring a dedicated **client self-service portal** for reviewing billing invoices, quotes, payment history, and ticket submissions. | PHP / Bootstrap / MySQL |
+| **[PNLCS](https://github.com/Panelica/pnlcs)** | [![Stars](https://img.shields.io/github/stars/Panelica/pnlcs?style=social&color=white)](https://github.com/Panelica/pnlcs/stargazers) | Modern open-source alternative to WHMCS built on Laravel with an **end-to-end client billing portal** managing hosting services, DNS, email accounts, recurring invoicing, and payment processing. | PHP (Laravel) / Vue.js |
+
+---
+
+## 🎯 Architecture & Feature Matrix
+
+When evaluating whether to adopt a commercial SaaS billing portal or self-host an open-source solution, consider the following architectural factors:
+
+* **Data Sovereignty & Compliance:** Open-source platforms like **Lago**, **Kill Bill**, and **Invoice Ninja** allow you to keep subscriber records, payment logs, and catalog data on private infrastructure, meeting stringent GDPR, HIPAA, and localized data-residency mandates.
+* **Margin Protection:** SaaS billing engines routinely levy a volume fee (ranging from **0.40% to 1.00%+** of Gross Merchandise Volume). For high-margin or large-volume organizations, running self-hosted software eliminates transaction rent.
+* **Hosted Security & PCI Scope:** Commercial hosted portals (such as **Stripe Customer Portal** or **Chargebee**) assume SAQ-A PCI compliance, managing tokenized card inputs on certified infrastructure and shielding internal systems from cardholder data exposure.
+* **Turnkey vs. Composable Portals:** Systems like **FOSSBilling** provide out-of-the-box client areas with minimal coding required, while engines like **OpenMeter** provide API building blocks to embed usage dashboards into custom frontend applications.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this curated ecosystem up-to-date:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-billing-portal`).
+3. ✍️ **Add or refine an entry** in `README.md` adhering to the existing tabular format, including factual pricing tiers, trial limits, or star badges.
+4. 🚀 **Submit a Pull Request** with a brief summary explaining the additions.
+
+---
+
+## 💖 Support
+
+If you find this curated collection useful for your projects or architecture research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help other developers and finance engineers discover it.
+- 🍴 **Fork and share** with teammates, communities, and colleagues.
+- ☕ **Buy me a coffee / Sponsor:** Support ongoing maintenance and open-source research via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated list** provided for educational and architectural reference only—it is neither an endorsement nor financial advisory.
+- Customer billing portals manage financial data and payment credentials. Always enforce PCI DSS compliance (tokenized gateway sessions), multi-factor authentication, and thorough audit trails for customer actions.
+- Portal feature sets differ across plan tiers. Ensure verified compatibility with your company's billing requirements before production deployment.
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and community contributors.</sub>
+</p>
