@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Customer-Billing-Self-Service-Portal?style=flat-square&color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,7 +57,7 @@ From a market dynamics perspective, the sector exhibits **moderate concentration
 
 *Self-hosted billing platforms, open-source invoicing systems, and usage-based metering engines featuring customer-facing self-service portals. Sorted in descending order by GitHub stargazers count.*
 
-| Project | Star Badge | Description | Tech Stack |
+| Project | Stars_Badge | Description | Tech Stack |
 |:---|:---|:---|:---|
 | **[Lago](https://github.com/getlago/lago)** | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Open-source metered billing and usage-based pricing platform with an extensible **customer portal** featuring real-time consumption analytics, invoice history, and self-serve prepaid wallet top-ups. | Go / Ruby / TypeScript |
 | **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** | [![Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Battle-tested open-source invoicing, payments, and client management suite with a **branded client portal** featuring passwordless/SSO login, quote acceptance, online invoice payments, and subscription tracking. | PHP (Laravel) / Flutter |
@@ -88,7 +88,7 @@ Contributions are warmly welcomed! Help keep this curated ecosystem up-to-date:
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-billing-portal`).
-3. ✍️ **Add or refine an entry** in `README.md` adhering to the existing tabular format, including factual pricing tiers, trial limits, or star badges.
+3. ✍️ **Add or refine an entry** in `README.md` adhering to the existing tabular format, including factual pricing tiers, trial limits, or Stars_Badges.
 4. 🚀 **Submit a Pull Request** with a brief summary explaining the additions.
 
 ---
